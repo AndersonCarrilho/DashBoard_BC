@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "neural-btc"
+version = "0.1.0"
+description = "rede neural para btc"
+authors = ["Anderson Correia"]
+license = "MI"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
